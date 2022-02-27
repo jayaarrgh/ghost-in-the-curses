@@ -23,12 +23,3 @@ sudo apt-get install libespeak-dev
 ```
 sudo apt-get install libncurses5-dev
 ```
-
-## Install
-using makefile for now
-
-`make && ./bin/app`
-
-or
-
-`make && gdb bin/app`
