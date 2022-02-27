@@ -23,3 +23,12 @@ sudo apt-get install libespeak-dev
 ```
 sudo apt-get install libncurses5-dev
 ```
+
+## Compile
+```
+mkdir build
+cd build
+cmake ..
+make
+./ghost-in-the-curses
+```
