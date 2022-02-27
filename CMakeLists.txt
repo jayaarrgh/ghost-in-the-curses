@@ -5,6 +5,8 @@ project(ghost-in-the-curses LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+configure_file("${PROJECT_SOURCE_DIR}/data/computer.txt" "${CMAKE_CURRENT_BINARY_DIR}/data/computer.txt" COPYONLY)
+
 file(GLOB SRC_FILES ${PROJECT_SOURCE_DIR}/src/*.cpp)
 add_executable(${CMAKE_PROJECT_NAME} ${SRC_FILES})
 
